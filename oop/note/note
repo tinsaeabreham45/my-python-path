@@ -1,0 +1,60 @@
+there are two stages when using classes. the first stage is the "class definition"
+the second stage is called "instantiation" make an object from class is called instantiation
+Ex
+"class Car(): this creating a Car class
+
+ford = Car() this is creating instance from the class Car
+"
+
+Attributes are a variable that defined in a class. an attribute is how we store personal information about each instance.
+they are a source of information for an object
+Ex
+" class Car():
+    sound = "beep"  Attributes that all car possessed
+
+ford = Car()
+print(ford.sound)
+"
+#########################
+SETTER AND GETTER
+#########################
+this are methods that we create to re-declare attributes and return attribute values
+Ex:
+class Car():
+    brand = ' '
+
+    def set_name(self, new_brand):     this is creating a setter function
+        self.brand = new_brand
+    def get_name(self):
+        return self.brand               this is getter function to return the value we set
+
+
+car = Car()
+car.set_name('toyota')
+car.get_name()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
